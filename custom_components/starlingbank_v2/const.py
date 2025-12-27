@@ -1,1 +1,0 @@
-CONF_SPACE_NAME: str = "space_name"

@@ -27,6 +27,7 @@ BALANCE_TYPES = ["cleared_balance", "effective_balance"]
 CONF_ACCOUNTS = "accounts"
 CONF_BALANCE_TYPES = "balance_types"
 CONF_SANDBOX = "sandbox"
+CONF_SPACE_NAME = "space_name"
 
 DEFAULT_SANDBOX = False
 DEFAULT_ACCOUNT_NAME = "Starling"

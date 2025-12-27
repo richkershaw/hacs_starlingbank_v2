@@ -4,11 +4,11 @@
   "codeowners": ["@richkershaw"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/richkershaw/starlingbank-v2",
+  "documentation": "https://github.com/richkershaw/hacs_starlingbank_v2",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "requirements": [
-    "starlingbank_v2==3.3"
+    "starlingbank-v2==3.3"
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
