@@ -6,7 +6,6 @@ from datetime import timedelta
 import logging
 
 import requests
-from custom_components.starlingbank_v2.const import CONF_SPACE_NAME
 from starlingbank import StarlingAccount
 import voluptuous as vol
 
