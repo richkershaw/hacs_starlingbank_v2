@@ -9,7 +9,7 @@ import voluptuous as vol
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
 from homeassistant.const import CONF_ACCESS_TOKEN, CONF_NAME
 
-from custom_components.starlingbank_v2.const import CONF_SPACE_NAME
+from .const import CONF_SPACE_NAME
 
 CONFIG_SCHEMA = vol.Schema(
     {vol.Required(CONF_ACCESS_TOKEN, default=""): str},
@@ -17,9 +17,11 @@ CONFIG_SCHEMA = vol.Schema(
     {vol.Required(CONF_SPACE_NAME, default=""): str}
 )
 
-
-class StarlingConfigFlow(ConfigFlow, domain=DOMAIN):
+class StarlingConfigFlow(ConfigFlow, domain="starlingbank_v2"):
     """The configuration flow for a Starling Bank account."""
+
+    VERSION = 1
+    MINOR_VERSION = 1
 
     async def async_step_user(
         self, user_input: dict[str, Any] | None = None
