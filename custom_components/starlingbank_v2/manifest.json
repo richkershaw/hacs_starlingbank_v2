@@ -1,0 +1,14 @@
+{
+  "domain": "starlingbank_v2",
+  "name": "Starling Bank v2",
+  "codeowners": ["@richkershaw"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/richkershaw/starlingbank-v2",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "starlingbank_v2==3.3"
+  ],
+  "version": "1.0.0"
+}
