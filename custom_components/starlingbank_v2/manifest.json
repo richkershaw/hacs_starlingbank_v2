@@ -10,5 +10,5 @@
   "requirements": [
     "starlingbank-v2==3.3"
   ],
-  "version": "1.0.4"
+  "version": "1.0.5"
 }

@@ -6,7 +6,7 @@ from datetime import timedelta
 import logging
 
 import requests
-from starlingbank import StarlingAccount
+from starlingbank-v2 import StarlingAccount
 import voluptuous as vol
 
 from homeassistant.components.sensor import (
