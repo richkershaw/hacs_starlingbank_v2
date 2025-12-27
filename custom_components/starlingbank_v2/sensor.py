@@ -122,6 +122,6 @@ class StarlingBalanceSensor(SensorEntity):
         else:
             self._starling_account.update_spaces_data()
             for space in self._starling_account.spaces:
-                if space.name == self._space_name:
-                    self._state = space.balance / 100
+                if self._starling_account.spaces[space].name == self._space_name:
+                    self._state = self._starling_account.spaces[space].balance / 100
                     break
