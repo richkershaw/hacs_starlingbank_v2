@@ -2,7 +2,7 @@
   "domain": "starlingbank_v2",
   "name": "Starling Bank v2",
   "codeowners": ["@richkershaw"],
-  "config_flow": true,
+  "config_flow": false,
   "dependencies": [],
   "documentation": "https://github.com/richkershaw/hacs_starlingbank_v2",
   "integration_type": "hub",
